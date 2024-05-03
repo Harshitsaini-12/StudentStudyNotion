@@ -135,8 +135,8 @@ exports.verifySignature = async (req, res) => {
                 //mail send krdo confirmation wala 
                 const emailResponse = await mailSender(
                                         enrolledStudent.email,
-                                        "Congratulations from StudyBuddy",
-                                        "Congratulations, you are onboarded into new StudyBuddy Course",
+                                        "Congratulations from CodeHelp",
+                                        "Congratulations, you are onboarded into new CodeHelp Course",
                 );
 
                 console.log(emailResponse);
